@@ -35,6 +35,7 @@ h2 {
 
 /* To Do Section */
 .week {
+	justify-content: center;
 
 }
 
@@ -63,6 +64,12 @@ h2 {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 700;
 	font-size: 12px;
+	vertical-align: top;
+}
+
+textarea {
+	margin: 0;
+	padding: 0;
 }
 
 /* Reminders */
@@ -78,7 +85,12 @@ h2 {
 	font-size: 24px;
 }
 
-/* Footer */
-footer {
-	font-size: 24px;
-}
+.task.square input[type="text"] {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+	border: none;
+} 
